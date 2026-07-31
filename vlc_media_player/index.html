@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<body>
+
+    <div class="div">
+    <h2>VLC media player</h2>
+<img src="./VLC_icon.png" class="img">
+</div>
+
+
+<div class="header">
+<p class="para" id="media">Media</p>
+    <input type="file" class="fileInput" >
+
+
+
+<div class="playback">
+ 
+<p class="para" id="play">Playback</p>
+
+  <ul class="speed">
+        <li id="speedUp">Speed up</li>
+        <li id="speedDown">Speed down</li>
+    </ul>
+
+</div>
+
+<div class="Audio">
+<p class="para" id="audio">Audio</p>
+   <ul class="volume">
+        <li id="volumeUp">Volume Up</li>
+        <li id="volumeDown">Volume Down</li>
+    </ul>
+</div>
+</div>
+</div>
+
+
+
+<div class="showspeed">
+   <p></p>
+</div>
+
+<div class="showaudio">
+    <p></p>
+</div>
+<div class="videoContainer">
+<div class="videoRun"></div>
+
+<div class="controlBut">
+
+<i class="fa-solid fa-play" id="Play"></i>
+<i class="fa-solid fa-pause" id="Pause"></i>
+<input type="range" id="rangebar" min="0" value="0">
+<i class="fa-solid fa-volume-xmark" id="Mute"></i>
+<i class="fa-solid fa-expand" id="Expand"></i>
+
+</div>
+</div>
+
+<script src="vlc.js"></script>
+</body>
+</html>
